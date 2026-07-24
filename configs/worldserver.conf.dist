@@ -1,0 +1,38 @@
+################################################
+# AzerothCore World Server configuration file #
+################################################
+[worldserver]
+
+# Database connections - CHANGE PASSWORD to your MySQL root password
+LoginDatabaseInfo     = "127.0.0.1;3306;root;YOUR_MYSQL_PASSWORD;acore_auth"
+WorldDatabaseInfo     = "127.0.0.1;3306;root;YOUR_MYSQL_PASSWORD;acore_world"
+CharacterDatabaseInfo = "127.0.0.1;3306;root;YOUR_MYSQL_PASSWORD;acore_characters"
+
+# Data directory - CHANGE THIS to your WoW 3.3.5a client folder
+DataDir = "C:/Program Files (x86)/World of Warcraft/Data"
+
+# Disable auto-updates
+Updates.EnableDatabases = 0
+
+# Server settings
+WorldServerPort = 8085
+
+# Expansion: 0 = Vanilla, 1 = TBC, 2 = WotLK
+Expansion = 0
+
+# Level cap
+MaxPlayerLevel = 60
+
+# Movement speed (1 = normal, 2 = double, etc.)
+Rate.MoveSpeed.Player = 1
+Rate.MoveSpeed.NPC = 1
+
+# XP rates (1 = normal, 5 = 5x faster leveling, etc.)
+Rate.XP.Kill = 1
+Rate.XP.Quest = 1
+Rate.XP.Explore = 1
+
+# Drop rates
+Rate.Drop.Item.Normal = 1
+Rate.Drop.Item.Rare = 1
+Rate.Drop.Item.epic = 1

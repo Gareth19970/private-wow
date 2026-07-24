@@ -1,0 +1,13 @@
+###############################################
+# AzerothCore Auth Server configuration file #
+###############################################
+[authserver]
+
+# Database connection - CHANGE PASSWORD to your MySQL root password
+LoginDatabaseInfo = "127.0.0.1;3306;root;YOUR_MYSQL_PASSWORD;acore_auth"
+
+# Disable auto-updates (we manage SQL manually)
+Updates.EnableDatabases = 0
+
+# Realm list port (clients connect here)
+RealmServerPort = 3724

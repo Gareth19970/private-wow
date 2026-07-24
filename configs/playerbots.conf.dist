@@ -1,0 +1,57 @@
+##################################################
+# PLAYERBOTS CONFIGURATION FILE                  #
+##################################################
+
+# Bot types:
+# "Randombot": randomly generated bots that populate the world
+# "Altbot": characters on your account you can log in and control
+
+####################################################################################################
+# GENERAL SETTINGS
+
+# Enable/disable playerbots module (1 = enabled, 0 = disabled)
+AiPlayerbot.Enabled = 1
+
+# Allow players to add bots via commands
+AiPlayerbot.BotCommand = 1
+
+# How many random bots to create (more = more populated world)
+AiPlayerbot.RandomBotAccountCount = 500
+
+# Auto-login random bots on server start
+AiPlayerbot.RandomBotAutologin = 1
+
+# Allow adding bots with init=auto
+AiPlayerbot.BotAutologin = 0
+
+####################################################################################################
+# MOUNT SETTINGS
+
+# Vanilla-appropriate mount levels
+AiPlayerbot.UseGroundMountAtMinLevel = 30
+AiPlayerbot.UseFastGroundMountAtMinLevel = 60
+AiPlayerbot.UseFlyMountAtMinLevel = 999
+AiPlayerbot.UseFastFlyMountAtMinLevel = 999
+
+####################################################################################################
+# RANDOMBOT SETTINGS
+
+# Bot level range (1-60 for vanilla progression)
+AiPlayerbot.RandomBotMinLevel = 1
+AiPlayerbot.RandomBotMaxLevel = 60
+
+# Sync bot levels with online players
+AiPlayerbot.SyncLevelWithPlayers = 0
+
+# Smart scaling for inactive bots
+AiPlayerbot.botActiveAloneSmartScaleWhenMinLevel = 1
+AiPlayerbot.botActiveAloneSmartScaleWhenMaxLevel = 60
+
+# Auto-join LFG queue
+AiPlayerbot.RandomBotJoinLfg = 1
+
+# Auto-join battlegrounds
+AiPlayerbot.RandomBotAutoJoinBG = 1
+
+# Enchanting minimum level
+AiPlayerbot.MinEnchantingBotLevel = 60

@@ -1,0 +1,30 @@
+# Build files
+build/
+*.exe
+*.dll
+*.lib
+*.pdb
+*.obj
+*.ilk
+
+# Database files (too large for git)
+sql/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE files
+.vs/
+.vscode/
+*.suo
+*.user
